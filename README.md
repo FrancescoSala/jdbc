@@ -34,9 +34,27 @@ Este repositório contém exemplos e anotações sobre como conectar a linguagem
 
 ---
 
+## Branches do Projeto
+Para organizar o desenvolvimento, criei branches separadas para cada funcionalidade:
+
+- **`insert`**: Contém o código para operações de **inserção** de dados no banco de dados.
+- **`retrieve`**: Contém o código para operações de **leitura** de dados do banco de dados.
+- **`update`**: Contém o código para operações de **atualização** de registros no banco de dados.
+- **`delete`**: Contém o código para operações de **exclusão** de registros do banco de dados.
+- **`transactions`**: Contém o código para demonstrar o uso de **transações** no banco de dados.
+
+### Para acessar cada branch, utilize o comando:
+
+```bash
+git checkout nome-da-branch
+```
+
 ## Como Executar os Exemplos?
 
-1. **Clone o repositório**:
-   ```bash
-   git clone https://github.com/FrancescoSala/jdbc.git
-   ```
+```bash
+git clone https://github.com/FrancescoSala/jdbc.git
+cd jdbc
+git fetch --all
+git checkout nome-da-branch
+```
+
